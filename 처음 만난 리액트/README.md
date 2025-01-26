@@ -3,6 +3,7 @@
 **자바스크립트와 CSS 기초 문법과 함께 리액트의 기초를 탄탄하게 다질 수 있습니다.**
 
 ![처음 만난 리액트(React)](https://cdn.inflearn.com/public/files/courses/328866/9053c9ce-d331-4eda-a3c4-bc30cf3b4670/2%E1%84%91%E1%85%A1%E1%86%AB_%E1%84%8E%E1%85%A2%E1%86%A8_%E1%84%8B%E1%85%B5%E1%84%86%E1%85%B5%E1%84%8C%E1%85%B5_small.png)
+  
 [처음 만난 리액트(React) 강의 링크](https://www.inflearn.com/course/%EC%B2%98%EC%9D%8C-%EB%A7%8C%EB%82%9C-%EB%A6%AC%EC%95%A1%ED%8A%B8)
 
 - 강사 : Inje Lee(소플)
