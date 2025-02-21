@@ -42,7 +42,7 @@ function MainPage(props) {
 
         <PostList
           posts={data}
-          onClick={(item) => {
+          onClickItem={(item) => {
             navigate(`/post/${item.id}`);
           }}
         />
