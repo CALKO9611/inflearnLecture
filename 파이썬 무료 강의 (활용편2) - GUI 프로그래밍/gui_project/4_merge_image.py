@@ -55,9 +55,17 @@ def merge_image():
     )  # 배경 흰색
     y_offset = 0  # y 위치 정보
 
-    for img in images:
+    # for img in images:
+    #     result_img.paste(img, (0, y_offset))
+    #     y_offset += img.size[1]  # height 값 만큼 더해줌
+
+    for idx, img in enumerate(images):
         result_img.paste(img, (0, y_offset))
         y_offset += img.size[1]  # height 값 만큼 더해줌
+
+        progress = (idx + 1) / len(images) * 100  # 실제 percent 정보를 계산
+        p_var.set(progress)
+        progress_bar.update()
 
     dest_path = os.path.join(txt_dest_path.get(), "calko_photo.jpg")
     result_img.save(dest_path)
