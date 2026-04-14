@@ -8,4 +8,4 @@ function getCircumference(radius) {
   return 2 * PI * radius;
 }
 
-export { PI, getArea, getCircumference };
+export default { PI, getArea, getCircumference };
