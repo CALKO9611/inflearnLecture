@@ -1,11 +1,8 @@
 import "./Body.css";
 
-function Body() {
-  return (
-    <div className="body">
-      <h1>body</h1>
-    </div>
-  );
+function Body(props) {
+  console.log(props);
+  return <div className="body">{props.name}</div>;
 }
 
 export default Body;
