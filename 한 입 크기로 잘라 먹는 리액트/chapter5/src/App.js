@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Body name={name} />
+      <Body name={name} location={"대한민국"} />
       <Footer />
     </div>
   );
