@@ -7,6 +7,7 @@ function App() {
   const BodyProps = {
     name: "칼코",
     location: "대한민국",
+    // favorList: ["피자", "치킨", "떡볶이"],
   };
   return (
     <div className="App">
