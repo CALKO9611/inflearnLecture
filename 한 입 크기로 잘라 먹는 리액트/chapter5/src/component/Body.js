@@ -1,6 +1,6 @@
 function Body() {
   return (
-    <div>
+    <div style={{ backgroundColor: "red", color: "blue" }}>
       <h1>body</h1>
     </div>
   );
