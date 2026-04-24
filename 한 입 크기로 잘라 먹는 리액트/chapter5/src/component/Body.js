@@ -1,5 +1,3 @@
-import "./Body.css";
-
 function Body({ name, location }) {
   console.log(name, location);
   return (
